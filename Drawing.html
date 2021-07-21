@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="paint.png" rel="icon">
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas" style="border: 2px solid black; display: inline-block; margin: auto;"></canvas>
+    <br>
+    <div>
+        <h1 style="margin-left: 100px;">Pen Width</h1>
+        <input type="range" max=30 min=1 value=5 id="thickness" style="display: inline-block; margin-left: 100px; margin-top: 50px;">
+        <h1 style="margin-left: 335px; margin-top: -108px;">Pen Colors</h1>
+        <button style="height: 20px; width: 20px; background-color: black; border: none; margin-left: 332px; margin-top: 0px; margin-bottom: 0px;" onclick="black()"></button>
+        <button style="height: 20px; width: 20px; background-color: paleturquoise; border: none;" onclick="sky()"></button>
+        <button style="height: 20px; width: 20px; background-color: plum; border: none;" onclick="purple()"></button>
+        <button style="height: 20px; width: 20px; background-color: palevioletred; border: none;" onclick="darkpink()"></button>
+        <button style="height: 20px; width: 20px; background-color: pink; border: none;" onclick="pink()"></button>
+        <button style="height: 20px; width: 20px; background-color: palegreen; border: none;" onclick="pgreen()"></button>
+        <button style="height: 20px; width: 20px; background-color: green; border: none;" onclick="green()"></button>
+        <button style="height: 20px; width: 20px; background-color: yellowgreen; border: none;" onclick="ygreen()"></button>
+        <button style="height: 20px; width: 20px; background-color: white; border: none; margin-left: 60px;" onclick="eraser()"><img src="eraser.png" style="height: 25px;"></button>
+        <br>
+        <button style="height: 20px; width: 20px; background-color: blue; border: none; margin-left: 332px;" onclick="blue()"></button>
+        <button style="height: 20px; width: 20px; background-color: yellow; border: none;" onclick="yellow()"></button>
+        <button style="height: 20px; width: 20px; background-color: red; border: none;" onclick="red()"></button>
+        <button style="height: 20px; width: 20px; background-color: rgb(104, 245, 198); border: none;" onclick="mint()"></button>
+        <button style="height: 20px; width: 20px; background-color: rgb(0, 212, 240); border: none;" onclick="lblue()"></button>
+        <button style="height: 20px; width: 20px; background-color: rgb(190, 190, 190); border: none;" onclick="grey()"></button>
+        <button style="height: 20px; width: 20px; background-color: rgb(131, 62, 62); border: none;" onclick="brown()"></button>
+        <button style="height: 20px; width: 20px; background-color: orange; border: none;" onclick="orange()"></button>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+   
+</body>
+</html>

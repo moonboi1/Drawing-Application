@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.button{
+    height: 45px;
+    width: 70px;
+    color: white;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
