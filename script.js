@@ -82,4 +82,11 @@ document.getElementById("canvas").addEventListener("mousedown", startDraw);
 document.getElementById("canvas").addEventListener("mouseup", endDraw);
 document.getElementById("canvas").addEventListener("mousemove", draw);
 
+$("#save").click(function(){
+        if(typeof(localStorage) != null){
+            localStorage.setItem("imageCanvas",canvas.toDataURL());
+        }else{
+            window.alert("Your browser does not support local storage");
+        }
+    });
 
